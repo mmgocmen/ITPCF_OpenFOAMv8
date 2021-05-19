@@ -1,0 +1,59 @@
+# 1 "Make/options"
+# 1 "<built-in>"
+# 1 "<command-line>"
+# 8 "<command-line>"
+# 1 "/usr/include/stdc-predef.h" 1 3 4
+
+# 17 "/usr/include/stdc-predef.h" 3 4
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+# 8 "<command-line>" 2
+# 1 "Make/options"
+EXE_INC = -I../incompressibleTwoPhaseThermalMixture/lnInclude -I../interfaceSigmaProperties/lnInclude -I$(LIB_SRC)/transportModels -I$(LIB_SRC)/MomentumTransportModels/compressible -I$(LIB_SRC)/twoPhaseModels/immiscibleIncompressibleTwoPhaseMixture -I$(LIB_SRC)/twoPhaseModels/twoPhaseMixture -I$(LIB_SRC)/twoPhaseModels/twoPhaseProperties -I$(LIB_SRC)/transportModels/lnInclude -I$(LIB_SRC)/twoPhaseModels/incompressibleTwoPhaseMixture/lnInclude -I$(LIB_SRC)/twoPhaseModels/twoPhaseMixture/lnInclude -I../TurbulenceModels/incompressible/turbulenceModel -I../TurbulenceModels/turbulenceModels/lnInclude -I../TurbulenceModels/incompressible/lnInclude -I../interpolationTable -I../interpolationTable/tableReaders -I../interpolationTable/tableReaders/openFoam -I../interpolationTable/tableReaders/csv -I$(LIB_SRC)/twoPhaseModels/twoPhaseProperties/alphaContactAngle/alphaContactAngle -I$(LIB_SRC)/fvOptions/lnInclude -I$(LIB_SRC)/finiteVolume/lnInclude 	-IthermalPhaseChangeModels/thermalPhaseChangeModel -I$(LIB_SRC)/meshTools/lnInclude 	-IthermalPhaseChangeModels/MeshGraph -I$(LIB_SRC)/sampling/lnInclude 	-IsurfaceTensionForceModels/surfaceTensionForceModel
+# 27 "Make/options"
+
+EXE_LIBS = -ltwoPhaseProperties -linterfaceProperties -ltwoPhaseMixture -lincompressibleTransportModels -lfiniteVolume -lfvOptions -lmeshTools -lsampling -lfluidThermoMomentumTransportModels -limmiscibleIncompressibleTwoPhaseMixture -lincompressibleTwoPhaseMixture -L$(FOAM_USER_LIBBIN) -lincompressibleTwoPhaseThermalMixture -linterfaceSigmaProperties -lincompressibleTurbulenceModels -lturbulenceModels

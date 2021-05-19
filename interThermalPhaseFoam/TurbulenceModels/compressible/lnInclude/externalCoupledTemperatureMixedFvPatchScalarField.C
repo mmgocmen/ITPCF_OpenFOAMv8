@@ -1,0 +1,1 @@
+../turbulentFluidThermoModels/derivedFvPatchFields/externalCoupledTemperatureMixed/externalCoupledTemperatureMixedFvPatchScalarField.C

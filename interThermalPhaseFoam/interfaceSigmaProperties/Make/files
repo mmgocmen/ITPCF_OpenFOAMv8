@@ -1,0 +1,4 @@
+interfaceSigmaProperties.C
+interfaceCompression/interfaceCompression.C
+
+LIB = $(FOAM_USER_LIBBIN)/libinterfaceSigmaProperties

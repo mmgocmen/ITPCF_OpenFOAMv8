@@ -1,0 +1,17 @@
+SOURCE = \
+interThermalPhaseChangeFoam.C \
+thermalPhaseChangeModels/MeshGraph/MeshGraph.C \
+thermalPhaseChangeModels/thermalPhaseChangeModel/thermalPhaseChangeModel.C \
+thermalPhaseChangeModels/thermalPhaseChangeModel/newThermalPhaseChangeModel.C \
+thermalPhaseChangeModels/InterfaceEquilibrium/InterfaceEquilibrium.C \
+thermalPhaseChangeModels/InterfaceEquilibrium_SplitDilatation/InterfaceEquilibrium_SplitDilatation.C \
+thermalPhaseChangeModels/noPhaseChange/noPhaseChange.C \
+thermalPhaseChangeModels/InterfaceEquilibrium_NoDilatation/InterfaceEquilibrium_NoDilatation.C \
+thermalPhaseChangeModels/HiLoNoPCVAlpha1/HiLoNoPCVAlpha1.C \
+thermalPhaseChangeModels/EmpiricalRateParameter/EmpiricalRateParameter.C \
+thermalPhaseChangeModels/interfacialResistance/interfacialResistance.C \
+surfaceTensionForceModels/surfaceTensionForceModel/surfaceTensionForceModel.C \
+surfaceTensionForceModels/surfaceTensionForceModel/newSurfaceTensionForceModel.C \
+surfaceTensionForceModels/Brackbill/Brackbill.C \
+surfaceTensionForceModels/SST/SST.C \
+surfaceTensionForceModels/SmoothedSF/SmoothedSF.C 
